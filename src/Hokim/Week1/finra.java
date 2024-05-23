@@ -7,9 +7,12 @@ public class finra {
         //for numbers which are a multiple of 5, print "RA" instead of the number.
         //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
 
+
         finra(30);
 
     }
+
+//FINRA method;
     public static void finra (int num){
 
         for (int i = 1; i <= num ; i++) {

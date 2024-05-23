@@ -6,6 +6,7 @@ public class divisionWithoutOperator {
         division(-100, -10);
     }
 
+//Calculator method;
     public static void division(int num1, int num2) {
         int count = 0;
         if (num1 >= 0 && num2 >= 0) {
@@ -13,6 +14,7 @@ public class divisionWithoutOperator {
                 num1 = num1 - num2;
                 count += 1;
             }
+
             System.out.println(count);
 
         } else if (num1 >= 0 && num2 < 0 || num1 < 0 && num2 >= 0) {
@@ -20,6 +22,7 @@ public class divisionWithoutOperator {
                 num1 = Math.abs(num1) - Math.abs(num2);
                 count += 1;
             }
+
             System.out.println("-" + count);
 
         } else if (num1 < 0 && num2 < 0) {
@@ -27,6 +30,7 @@ public class divisionWithoutOperator {
                 num1 = Math.abs(num1) - Math.abs(num2);
                 count += 1;
             }
+
             System.out.println(count);
         }
     }
