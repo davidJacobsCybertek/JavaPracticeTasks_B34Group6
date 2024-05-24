@@ -1,4 +1,4 @@
-package Week1;
+package Zina.week1;
 
 public class divisionWithoutOperator {
     public static void main(String[] args) {
