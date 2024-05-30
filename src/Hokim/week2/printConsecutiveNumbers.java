@@ -3,12 +3,11 @@ package Hokim.week2;
 public class printConsecutiveNumbers {
     public static void main(String[] args) {
 
-     codility(21);
+        codility(21);
 
     }
-
-    public static void codility (int n) {
-        for (int i = 1; i <= n ; i++) {
+    public static void codility(int n) {
+        for (int i = 1; i <= n; i++) {
 
             if (i % 2 == 0 && i % 3 == 0) {
                 System.out.println("Codility" + "Test");
@@ -16,19 +15,17 @@ public class printConsecutiveNumbers {
                 System.out.println("Codility" + "Coder");
             } else if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Test" + "Coder");
-            }else if (i % 2 == 0){
+            } else if (i % 2 == 0) {
                 System.out.println("Codility");
             } else if (i % 3 == 0) {
                 System.out.println("Test");
             } else if (i % 5 == 0) {
                 System.out.println("Coder");
-            }else {
+            } else {
                 System.out.println(i);
             }
-
         }
     }
-
 }
 
       /*  Write a function: that, given a positive integer N, prints the consecutive numbers from 1 to N,

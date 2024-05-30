@@ -4,16 +4,18 @@ import java.util.ArrayList;
 
 public class Divisibleby3_5_15 {
     public static void main(String[] args) {
-      divisibleBy3_5_15(100);
+
+        divisibleBy3_5_15(100);
 
     }
-    public static void divisibleBy3_5_15(int number){
+
+    public static void divisibleBy3_5_15(int number) {
         ArrayList<Integer> divisibleBy_3 = new ArrayList<>();
         ArrayList<Integer> divisibleBy_5 = new ArrayList<>();
         ArrayList<Integer> divisibleBy_15 = new ArrayList<>();
 
         for (int i = 1; i <= number; i++) {
-            if(i % 15 == 0){
+            if (i % 15 == 0) {
                 divisibleBy_15.add(i);
             } else if (i % 5 == 0) {
                 divisibleBy_5.add(i);
@@ -21,12 +23,9 @@ public class Divisibleby3_5_15 {
                 divisibleBy_3.add(i);
             }
         }
-
         System.out.println("divisibleBy_15 = " + divisibleBy_15);
         System.out.println("divisibleBy_5 = " + divisibleBy_5);
         System.out.println("divisibleBy_3 = " + divisibleBy_3);
-
-
     }
 }
   /*Numbers -- Divisible by 3, 5, 15
