@@ -28,12 +28,17 @@ public class printConsecutiveNumbers {
         Codility
         17
 */
+        codility(10);
+     
+
+    }
 
 
-        for (int i = 1; i < 24 ; i++) {
+    public static void codility(int num){
+        for (int i = 1; i <= num ; i++) {
             if (i%2==0 || i%3==0 || i%5==0){
                 if(i%2==0 && i%3!=0 && i%5!=0){
-                   //Codility
+                    //Codility
                     System.out.println("Codility "+ i);
                 }else if(i%2!=0 && i%3==0 && i%5!=0){
                     //Test
@@ -50,13 +55,13 @@ public class printConsecutiveNumbers {
                 } else if (i%2!=0 && i%3==0 && i%5==0) {
                     //TestCoders
                     System.out.println("TestCoders "+i);
+                } else if (i%2==0 && i%3==0 && i%5==0) {
+                    System.out.println("CodilityTestCoders "+i);
                 }
             }else {
                 System.out.println(i);
             }
         }
-     
-
     }
 
    
