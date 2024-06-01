@@ -23,9 +23,9 @@ public class Divisibleby3_5_15 {
                 divisibleBy_3.add(i);
             }
         }
-        System.out.println("divisibleBy_15 = " + divisibleBy_15);
-        System.out.println("divisibleBy_5 = " + divisibleBy_5);
-        System.out.println("divisibleBy_3 = " + divisibleBy_3);
+        System.out.println("DivisibleBy 15 = " + divisibleBy_15);
+        System.out.println("DivisibleBy 5 = " + divisibleBy_5);
+        System.out.println("DivisibleBy 3 = " + divisibleBy_3);
     }
 }
   /*Numbers -- Divisible by 3, 5, 15
