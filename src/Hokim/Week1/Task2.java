@@ -1,4 +1,4 @@
-package Week1;
+package Hokim.Week1;
 
 public class Task2 {
 }
