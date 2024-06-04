@@ -14,13 +14,15 @@ public class Divisibleby3_5_15 {
                 divideBy3 = divideBy3 + i;
             }else if (i % 5 == 0){
                 divideBy5 = divideBy5 + i;
-            }else if (i % 15 == 0){
+            } else {
                 divideBy15 = divideBy15 + i;
             }
         }
 
         System.out.println(divideBy3);
+        System.out.println();
         System.out.println(divideBy5);
+        System.out.println();
         System.out.println(divideBy15);
 
     }
