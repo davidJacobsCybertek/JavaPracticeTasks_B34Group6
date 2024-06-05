@@ -1,4 +1,4 @@
-package Week1;
+package Veysel.Week1;
 
 public class divisionWithoutOperator {
     public static void main(String[] args) {
@@ -6,7 +6,9 @@ public class divisionWithoutOperator {
 
 
 
-
-
     }
+
+// Week 1 solutions - test
+
+
 }

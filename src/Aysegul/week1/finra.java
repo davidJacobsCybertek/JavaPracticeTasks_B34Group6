@@ -1,4 +1,4 @@
-package Week1;
+package Aysegul.week1;
 
 public class finra {
     public static void main(String[] args) {
@@ -7,9 +7,20 @@ public class finra {
         //for numbers which are a multiple of 5, print "RA" instead of the number.
         //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
 
+        int num = 60;
 
+        if (num % 5 == 0 && num % 3 ==0 ){
+            System.out.println("FINRA");
+        } else if (num % 3 == 0 ) {
+            System.out.println("FIN");
+        } else if (num % 5 ==0) {
+            System.out.println("RA");
+        }else {
+            System.out.println(num);
+        }
 
 
     }
+
 
 }
