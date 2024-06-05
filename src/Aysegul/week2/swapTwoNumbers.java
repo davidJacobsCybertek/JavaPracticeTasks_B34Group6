@@ -19,12 +19,7 @@ public class swapTwoNumbers {
         System.out.println("After swap A is now, " + a + " After swap B is now, " + b);
 
 
-
-
-
-
-
-
+        // ...
 
 
 
