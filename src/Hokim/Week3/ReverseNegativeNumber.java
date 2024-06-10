@@ -7,7 +7,8 @@ public class ReverseNegativeNumber {
 
         String numStr = "" + num;
         String reversedNumStr = "";
-        //if we return negative number we >=0 by using below "if" condition;
+
+        //if we return negative number   >=0 by using below "if" condition;
         for (int i = numStr.length()-1; i > 0 ; i--) {
 //            if(numStr.charAt(i)=='-'){
 //                reversedNumStr = "-" + reversedNumStr;
