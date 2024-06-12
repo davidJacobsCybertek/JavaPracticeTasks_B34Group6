@@ -1,4 +1,4 @@
-package Week1;
+package Veysel.Week1;
 
 public class finra {
     public static void main(String[] args) {
