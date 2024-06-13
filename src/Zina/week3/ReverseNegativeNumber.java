@@ -3,7 +3,7 @@ package Zina.week3;
 public class ReverseNegativeNumber {
     public static void main(String[] args) {
 
-        int num = 123;
+        int num = -123456;
         String numStr = "" + num;
         String reversedNum = "";
 
