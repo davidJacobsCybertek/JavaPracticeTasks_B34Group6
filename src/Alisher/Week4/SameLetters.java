@@ -1,7 +1,4 @@
-package Week4;
-
-import java.util.Arrays;
-import java.util.TreeSet;
+package Alisher.Week4;
 
 public class SameLetters {
     /*Write a return method that check if a string is build out of the same letters as another string.
@@ -9,5 +6,5 @@ public class SameLetters {
     same("abc",  "abb"); -> false:*/
 
 
-  //NO SOLUTION
+  //
 }
